@@ -9,9 +9,11 @@
 
 Este script simula un conjunto de operaciones relacionadas con redes de datos, incluyendo:
 
-- Escaneo de puertos comunes (22, 80, 443, etc.).
-- Simulación de monitoreo de CPU, RAM y latencia de un servicio como Moodle.
+- Escaneo de puertos comunes (22, 80, 443, etc).
+- Verificar si una IP o un servidor se encuentra activo.
+- Ver IP pública y privada.
 - Verificación de posibles alertas por sobrecarga o mal funcionamiento.
+
   
 Su objetivo es mostrar cómo se podrían implementar pruebas básicas de seguridad y rendimiento en una solución cloud orientada a servicios educativos.
 
@@ -28,26 +30,9 @@ Estos ejemplos permiten entender cómo se automatizarían tareas comunes en una 
 
 ## Herramientas utilizadas
 
-- **Python 3.x**
+- **Python**
 - Librerías estándar (`socket`, `datetime`, `random`, etc.)
 - Simulación de comportamientos reales para uso académico
-
----
-
-## Diagrama de Arquitectura
-
-![Arquitectura de Solución Cloud](arquitectura_red.png)
-
-El diagrama muestra los principales componentes en la nube: servicios web, base de datos, almacenamiento, monitoreo y usuarios remotos.
-
----
-
-## Métricas de Impacto (Simuladas)
-
-- Disponibilidad proyectada: >99.5%
-- Tiempo medio de respuesta reducido en un 30%
-- Tiempo de recuperación ante fallos: <10 minutos
-- Satisfacción del usuario: >80% esperada
 
 ---
 
